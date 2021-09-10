@@ -1,0 +1,33 @@
+.blog-bg-image{
+    /* position: absolute; */
+    opacity:0.7;
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+  box-sizing: border-box !important;
+
+    
+}
+.blog-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    box-sizing: border-box !important;
+    width: 100%;
+    /* position:relative; */
+}
+.blog-header > h1{
+    color:white;
+    position:absolute;
+    opacity:1 !important;
+    z-index:1;
+
+}
+.blog-header > h2{
+    color:rgb(240, 239, 239);
+    margin-top: 90px;
+    position:absolute;
+    opacity:1 !important;
+    z-index:1;
+    font-weight:lighter !important;
+}
